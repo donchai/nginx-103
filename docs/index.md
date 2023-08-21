@@ -7,7 +7,8 @@ Streamline Your App and API Management with NGINX Management Suite using NIM. Th
 
 For the demonstration, we will build a demo setup consisting of 1 x LB fronting API gateway clusters that connect to the API endpoints (httpbin API).
 
-<img width="600" alt="Lab Overview" src="https://github.com/donchai/nginx-103/assets/6828772/fa05f8f8-ff1f-49e7-acc7-c42ff16d95f5">
+<img width="600" alt="Lab Overview" src="https://github.com/donchai/nginx-103/assets/6828772/fa05f8f8-ff1f-49e7-acc7-c42ff16d95f5"><br>
+
 
 ```{toctree}
 :maxdepth: 2
@@ -20,7 +21,6 @@ scaling
 developer
 ```
 
-## Inspiration
+## Acknowledgement
 
-The UI and design elements of `sphinx-copybutton` are heavily inspired by [GitHub's design choices](https://primer.style).
-The icon we use is from [Tabler's icons set](https://tablericons.com/).
+This lab is impossible with the great support from `Ewen Low` [Solutions Engineer](https://my.linkedin.com/in/ewen-low-a73413174) and Arleene Lystia [Field Marketing Manager](https://id.linkedin.com/in/arleene-lystia).
