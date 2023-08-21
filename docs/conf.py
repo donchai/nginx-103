@@ -19,7 +19,7 @@
 # -- Project information -----------------------------------------------------
 
 project = "NGINX Super User 2.0"
-copyright = "2023, Don Chai"
+copyright = "2023, NGINX Super User 2.0"
 author = "Don Chai"
 
 # The short X.Y version
