@@ -23,4 +23,4 @@ developer
 
 ## Acknowledgement
 
-This lab is impossible with the great support from `Ewen Low` [Solutions Engineer](https://my.linkedin.com/in/ewen-low-a73413174) and `Arleene Lystia` [Field Marketing Manager](https://id.linkedin.com/in/arleene-lystia).
+This lab was made possible with the great support from `Ewen Low` [Solutions Engineer](https://my.linkedin.com/in/ewen-low-a73413174) and `Arleene Lystia` [Field Marketing Manager](https://id.linkedin.com/in/arleene-lystia).
