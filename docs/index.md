@@ -1,35 +1,14 @@
 # NGINX 103
 
-```{image} https://readthedocs.org/projects/sphinx-copybutton/badge/?version=latest
-:alt: Documentation
-:target: https://sphinx-copybutton.readthedocs.io/en/latest/?badge=latest
-```
+Streamline Your App and API Management with NGINX Management Suite using NIM. This lab is an introduction to NGINX Management Suites (NMS) with various modules: API Connectivity Manager (ACM), Instance Manager (NIM), and Security Monitoring (SM). It includes the usage of NGINX Plus as a load balancer and API Gateway, as well as NGINX App Protect for API Security Protection.
 
-```{image} https://img.shields.io/pypi/v/sphinx-copybutton.svg
-:alt: PyPi page
-:target: https://pypi.org/project/sphinx_copybutton
-```
+Original Lab Author: Ewen Low
 
-```{image} https://img.shields.io/conda/vn/conda-forge/sphinx-copybutton.svg
-:alt: Conda Version
-:target: https://anaconda.org/conda-forge/sphinx-copybutton
-```
+**Lab Overview**
 
-Sphinx-copybutton does one thing: add a little "copy" button to the right
-of your code blocks. That's it! It is a lightweight wrapper around the
-excellent (and also lightweight) Javascript library
-[ClipboardJS](https://clipboardjs.com/).
+For the demonstration, we will build a demo setup consisting of 1 x LB fronting API gateway clusters that connect to the API endpoints (httpbin API)."
 
-**Here's an example**
-
-% This is stored in this issue: https://github.com/executablebooks/sphinx-copybutton/issues/157
-
-```{image} https://user-images.githubusercontent.com/1839645/150200219-73663c59-08fd-4185-b157-62f3769c02ac.gif
-:alt: Copy Button Demo
-:width: 500px
-```
-
-And here's a code block, note the copy button to the right!
+<img width="885" alt="Screenshot 2023-08-21 at 10 45 26 PM" src="https://github.com/donchai/nginx-103/assets/6828772/fa05f8f8-ff1f-49e7-acc7-c42ff16d95f5">
 
 ```bash
 copy me!
