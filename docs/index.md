@@ -9,7 +9,7 @@ For the demonstration, we will build a demo setup consisting of 1 x LB fronting 
 
 <img width="600" alt="Lab Overview" src="https://github.com/donchai/nginx-103/assets/6828772/fa05f8f8-ff1f-49e7-acc7-c42ff16d95f5">
 
-## NMS Install
+## NMS Installation
 
 `1.` Navigate to ubuntu, click on access vscode app via Ubuntu -> vscode<br>
 <img width="400" alt="Access to vscode" src="https://github.com/donchai/nginx-103/assets/6828772/348600fe-e57d-4f76-83ed-4e1e8bb0903d"><br>
@@ -48,34 +48,10 @@ sudo docker compose -f docker-compose.yaml up -d
 ```
 <img width="906" alt="Deploy NMS" src="https://github.com/donchai/nginx-103/assets/6828772/07a93fa3-b5cc-4eb0-8b64-abe11cfa1aa2"><br>
 
-`9.` After few minutes (approx 3-5 min), go the ubuntu tab and click access to HTTP-443 to bring up the NMS portal<br>
-<img width="826" alt="Launch NMS Portal" src="https://github.com/donchai/nginx-103/assets/6828772/e1ce4383-689c-4eb1-93ae-479d09c6260f"><br>
-
-
-## Use
-
-In your `conf.py` configuration file, add `sphinx_copybutton` to your
-extensions list. E.g.:
-
-```python
-extensions = [
-    ...
-    'sphinx_copybutton'
-    ...
-]
-```
-
-When you build your site, your code blocks should now have little copy buttons
-to their right. Clicking the button will copy the code inside!
-
-See [](use.md) for more information about how to use `sphinx-copybutton`.
-
 ```{toctree}
 :maxdepth: 2
+license
 use
-contribute/index
-reference/example
-changelog
 ```
 
 ## Inspiration
