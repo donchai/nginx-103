@@ -1,7 +1,7 @@
 # NGINX 103
 
 Streamline Your App and API Management with NGINX Management Suite using NIM. This lab is an introduction to NGINX Management Suites (NMS) with various modules: API Connectivity Manager (ACM), Instance Manager (NIM), and Security Monitoring (SM). It includes the usage of NGINX Plus as a load balancer and API Gateway, as well as NGINX App Protect for API Security Protection.
-Original Lab Author: `Ewen Low`
+<br>*Original Lab Author*: `Ewen Low`
 
 **Lab Overview**
 
@@ -9,45 +9,24 @@ For the demonstration, we will build a demo setup consisting of 1 x LB fronting 
 
 <img width="600" alt="Lab Overview" src="https://github.com/donchai/nginx-103/assets/6828772/fa05f8f8-ff1f-49e7-acc7-c42ff16d95f5">
 
-```bash
-copy me!
-```
-You can configure `sphinx-copybutton` to detect *input prompts* in code
-cells, and then both remove these prompts before copying, as well as skip
-lines that *don't* start with prompts (in case they are output lines).
-
-For example, this site has been configured to strip Python prompts (">>> ") and output lines.
-Try copy-pasting the code block below.
-
-```python
->>> a = 2
->>> print(a)
-2
->>>
->>> b = 'wow'
->>> print(b)
-wow
-```
-
 ## NMS Install
 
-1. Navigate to ubuntu, click on access vscode app via Ubuntu -> vscode
-<img width="600" alt="Access to vscode" src="https://github.com/donchai/nginx-103/assets/6828772/348600fe-e57d-4f76-83ed-4e1e8bb0903d">
+1. Navigate to ubuntu, click on access vscode app via Ubuntu -> vscode<br>
+<img width="400" alt="Access to vscode" src="https://github.com/donchai/nginx-103/assets/6828772/348600fe-e57d-4f76-83ed-4e1e8bb0903d">
 
-2. Launch a new terminal in vscode
-<img width="600" alt="Launch new terminal" src="https://github.com/donchai/nginx-103/assets/6828772/5eb59509-2747-4ef6-9bb2-37720cd22456">
+2. Launch a new terminal in vscode<br>
+<img width="400" alt="Launch new terminal" src="https://github.com/donchai/nginx-103/assets/6828772/5eb59509-2747-4ef6-9bb2-37720cd22456">
 
+3. At terminal prompt, copy and paste following command to clone nms-demo-kit repo from Github
 ```bash
-pip install sphinx-copybutton
+git clone https://github.com/donchai/nms-demo-kit
 ```
 
-Or with `conda` via `conda-forge`:
-
+4. From the terminal, go to directory nms-demo-kit
 ```bash
-conda install -c conda-forge sphinx-copybutton
+cd nms-demo-kit
 ```
-
-[Here's a link to the sphinx-copybutton GitHub repository](https://github.com/ExecutableBookProject/sphinx-copybutton).
+<img width="741" alt="Change directory to nms-demo-kit folder" src="https://github.com/donchai/nginx-103/assets/6828772/eb79ea89-dced-45b1-a583-bc2c63cc0a56">
 
 ## Use
 
