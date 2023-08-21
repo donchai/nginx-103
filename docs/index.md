@@ -33,7 +33,7 @@ cd nms-demo-kit
 chmod 755 ./scripts/*
 ```
 
-`6.` Download NGINX Plus trial license and put nginx-repo.crt and nginx-repo.key into nginx-plus folder
+`6.` Download NGINX Plus trial license and put nginx-repo.crt and nginx-repo.key into nginx-plus folder<br>
 `Obtain nginx-repo.crt and nginx-repo.key from Lab Facilitators`
 
 `7.` Copy, paste, and enter following command into terminal to build the NMS (NGINX Instance Manager, API Connectivity Manager) container image, for steps , do refer to the prebuild shell script “buildNMS.sh”<br>
@@ -47,6 +47,10 @@ sudo ./scripts/buildNMS.sh -t nginx-nms -i -C nginx-plus/nginx-repo.crt -K nginx
 sudo docker compose -f docker-compose.yaml up -d
 ```
 <img width="906" alt="Deploy NMS" src="https://github.com/donchai/nginx-103/assets/6828772/07a93fa3-b5cc-4eb0-8b64-abe11cfa1aa2"><br>
+
+`9.` After few minutes (approx 3-5 min), go the ubuntu tab and click access to HTTP-443 to bring up the NMS portal<br>
+<img width="826" alt="Launch NMS Portal" src="https://github.com/donchai/nginx-103/assets/6828772/e1ce4383-689c-4eb1-93ae-479d09c6260f"><br>
+
 
 ## Use
 
