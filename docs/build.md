@@ -12,4 +12,4 @@ sudo ./scripts/buildNPlusWithAgent.sh -t npluswithagent -n https://10.1.1.6
 ## Build NGINX Plus Image for API Developer Portal
 `2.` Copy, paste, and enter following command into terminal to build NGINX Plus (ACM Dev-Portal) image with nginx-agent (the 10.1.1.6 the IP on the ubuntu host).<br>
 The entire process will take around 2-3 minutes.<br>
-<img width="796" alt="Build NGINX Plus as API Developer Portal" src="https://github.com/donchai/nginx-103/assets/6828772/5e5ed597-c486-4bcd-bd8b-3e54e7bf8491"><br>
+<img width="794" alt="Build NGINX Plus as API Developer Portal" src="https://github.com/donchai/nginx-103/assets/6828772/d73d9c7e-420a-486e-9da9-ba4a8294b53a">
