@@ -15,4 +15,16 @@ The entire process will take around 2-3 minutes.<br>
 ```bash
 sudo ./scripts/buildNPlusWithAgent.sh -t npluswithagent:devportal -D -n https://10.1.1.6
 ```
-<img width="794" alt="Build NGINX Plus as API Developer Portal" src="https://github.com/donchai/nginx-103/assets/6828772/d73d9c7e-420a-486e-9da9-ba4a8294b53a">
+<img width="794" alt="Build NGINX Plus as API Developer Portal" src="https://github.com/donchai/nginx-103/assets/6828772/d73d9c7e-420a-486e-9da9-ba4a8294b53a"><br>
+
+## Uncomment Docker configuration file to run NGINX Plus Instances
+`3.` Navigate to the nms-demo-kit folder at vs code, click on the docker-compose.yaml manifest file.<br>
+<img width="468" alt="Edit docker-compose.yaml File" src="https://github.com/donchai/nginx-103/assets/6828772/d8fa6b74-81ba-431e-9a79-8f170de516b5"><br>
+
+`4.` Uncomment out the *nginx-lb*, *nginx-gw*, *httpbin-app*, *acm.nginx-devportal* sections in docker-compose.yaml section.<br>
+Before<br>
+<img width="696" alt="Before Uncomment docker-compose.yaml File" src="https://github.com/donchai/nginx-103/assets/6828772/e661d2ef-2991-4afe-a4ae-cc74ffd62b7e"><br>
+After (Highlight from line 32 to line 65) and press the below shortcut keys<br>
+• Shortcut keys for Mac = Command + /)<br>
+• Shortcut keys for Windows = Control + K or Control + C or Control + U<br>
+<img width="681" alt="After Uncomment docker-compose.yaml File" src="https://github.com/donchai/nginx-103/assets/6828772/65472789-8299-4c8d-88d2-580d5fd8a18d"><br>
