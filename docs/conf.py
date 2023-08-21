@@ -87,7 +87,7 @@ html_theme = "sphinx_book_theme"
 # documentation.
 #
 html_theme_options = {
-    "repository_url": "https://github.com/executablebooks/sphinx-copybutton",
+    "repository_url": "https://github.com/donchai/nginx-103",
     "use_repository_button": True,
 }
 
