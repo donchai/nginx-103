@@ -95,7 +95,7 @@ html_theme_options = {
 # relative to this directory. They are copied after the builtin static files,
 # so a file named "default.css" will overwrite the builtin "default.css".
 html_static_path = ["_static"]
-html_logo = "../sphinx_copybutton/_static/NGINX-Super-User-ASEAN-2.0.png"
+html_logo = "../sphinx_copybutton/_static/NGINX-Super-User.png"
 html_title = "NGINX Super User 2.0"
 
 # Custom sidebar templates, must be a dictionary that maps document names
