@@ -7,7 +7,7 @@ Original Lab Author: `Ewen Low`
 
 For the demonstration, we will build a demo setup consisting of 1 x LB fronting API gateway clusters that connect to the API endpoints (httpbin API)."
 
-<img width="885" alt="Lab Overview" src="https://github.com/donchai/nginx-103/assets/6828772/fa05f8f8-ff1f-49e7-acc7-c42ff16d95f5">
+<img width="600" alt="Lab Overview" src="https://github.com/donchai/nginx-103/assets/6828772/fa05f8f8-ff1f-49e7-acc7-c42ff16d95f5">
 
 ```bash
 copy me!
@@ -32,10 +32,10 @@ wow
 ## NMS Install
 
 1. Navigate to ubuntu, click on access vscode app via Ubuntu -> vscode
-<img width="590" alt="Access to vscode" src="https://github.com/donchai/nginx-103/assets/6828772/348600fe-e57d-4f76-83ed-4e1e8bb0903d">
+<img width="600" alt="Access to vscode" src="https://github.com/donchai/nginx-103/assets/6828772/348600fe-e57d-4f76-83ed-4e1e8bb0903d">
 
 2. Launch a new terminal in vscode
-<img width="468" alt="Launch new terminal" src="https://github.com/donchai/nginx-103/assets/6828772/5eb59509-2747-4ef6-9bb2-37720cd22456">
+<img width="600" alt="Launch new terminal" src="https://github.com/donchai/nginx-103/assets/6828772/5eb59509-2747-4ef6-9bb2-37720cd22456">
 
 ```bash
 pip install sphinx-copybutton
