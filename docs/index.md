@@ -13,7 +13,11 @@ For the demonstration, we will build a demo setup consisting of 1 x LB fronting 
 :maxdepth: 2
 installation
 license
-use
+build
+configuration
+api
+scaling
+developer
 ```
 
 ## Inspiration
