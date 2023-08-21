@@ -14,8 +14,10 @@ For the demonstration, we will build a demo setup consisting of 1 x LB fronting 
 1. Navigate to ubuntu, click on access vscode app via Ubuntu -> vscode<br>
 <img width="400" alt="Access to vscode" src="https://github.com/donchai/nginx-103/assets/6828772/348600fe-e57d-4f76-83ed-4e1e8bb0903d">
 
+
 2. Launch a new terminal in vscode<br>
 <img width="400" alt="Launch new terminal" src="https://github.com/donchai/nginx-103/assets/6828772/5eb59509-2747-4ef6-9bb2-37720cd22456">
+
 
 3. Copy, paste, and enter following command into terminal to clone nms-demo-kit repo from Github
 ```bash
@@ -27,6 +29,7 @@ git clone https://github.com/donchai/nms-demo-kit
 cd nms-demo-kit
 ```
 <img width="741" alt="Change directory to nms-demo-kit folder" src="https://github.com/donchai/nginx-103/assets/6828772/eb79ea89-dced-45b1-a583-bc2c63cc0a56">
+
 
 5. Copy, paste, and enter following command into terminal to set executable permission to *scripts* folder 
 ```bash
