@@ -86,6 +86,6 @@ Second, to check IP address in docker container, copy, paste, and enter below co
 sudo docker inspect <container id> | grep "IPAddress"
 ```
 <img width="1301" alt="Get Docker IP Address" src="https://github.com/donchai/nginx-103/assets/6828772/db317d1e-9792-46a4-9d19-fa210ff6dc5f"><br>
-<br>Alternatively, go to the NMS to check on the IP for the NGINX-GW Cluster Instance 1 and Instance 2.<br>
+<br>Alternatively, go to the NMS portal to check on the IP for the NGINX-GW Cluster Instance 1 and Instance 2.<br>
 <img width="800" alt="Replace Default NGINX Configuration" src="https://github.com/donchai/nginx-103/assets/6828772/76befac4-c601-445a-8972-2f8b80d68161"><br>
 
