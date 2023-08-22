@@ -9,3 +9,7 @@ In the previously created *API Connectivity Manager*-> *Infrastructure*-> *Works
 
 `2.` Once done, go to *Services*-> select the *httpbin-api* API proxy, Click *Edit Proxy*. Under *Configuration*, Look for *Developer Portal*, Tick the checkbox “*Also publish API to developer portal*”, and provide a portal proxy hostname value (*nginx-devportal*), Click `Save & Publish` button to complete.<br>
 <img width="800" alt="Create Developer Portal" src="https://github.com/donchai/nginx-103/assets/6828772/61b6a097-81a5-4ef7-87ca-4b8fec1d15c7"><br>
+
+### Enable Access
+`3.` Go to your UDF lab portal, create addiLonal access method under ubuntu server for port 90 and click access.<br>
+<img width="800" alt="Enable Developer Portal Access" src="https://github.com/donchai/nginx-103/assets/6828772/56fb7d95-5022-4862-9c20-8579c3ef82a8"><br>
