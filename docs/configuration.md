@@ -68,4 +68,8 @@ server {
 `8.` Paste the code under the */etc/nginx/conf.d/default.conf* existing modify file content body (overwrite all). Click `Publish` button to save the modified NGINX default configuration file.<br>
 <img width="800" alt="Replace Default NGINX Configuration" src="https://github.com/donchai/nginx-103/assets/6828772/d52cb029-50a7-44cd-a75a-bfb0f8218b97"><br>
 
-
+`9.` Test the LB setting, navigate back to VS code terminal and copy, paste, and enter command below twice.<br>
+```bash
+curl -I http://localhost/
+```
+<img width="800" alt="Test LB Setting" src="https://github.com/donchai/nginx-103/assets/6828772/486cf304-b57d-44a5-a59a-ca1f12699cf1"><br>
