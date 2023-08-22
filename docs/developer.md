@@ -15,3 +15,10 @@ In the previously created *API Connectivity Manager*-> *Infrastructure*-> *Works
 Enter *HTTP-90* into `Label` field, select *HTTPS* on `Protocol` dropdown, select *10.1.1.6* on `Instance Address` dropdown, and enter *90* into `Instance Port` field, click Save button to complete.<br>
 <img width="800" alt="Enable Developer Portal Access" src="https://github.com/donchai/nginx-103/assets/6828772/56fb7d95-5022-4862-9c20-8579c3ef82a8"><br>
 <br>Once done, locate the newly added access method with port 90 and click `Access` to browse Developer Portal.<br>
+
+### Explore Developer Portal
+`4.` Spend 2-3 minutes to explore Developer Portal. Look for various endpoints and possible API calls.<br>
+<img width="1074" alt="Explore Developer Portal" src="https://github.com/donchai/nginx-103/assets/6828772/1d613470-76cf-4a1b-81db-3556d7ab3e54"><br>
+
+### The End
+Thank you for your time, untill the next month, have a good one!<br>
