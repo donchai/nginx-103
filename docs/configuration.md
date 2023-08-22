@@ -8,15 +8,16 @@ Configure NGINX LB using NGINX Instance Manager.<br>
 `2.` Click in the plus + sign to add new file.<br>
 <img width="1216" alt="Click Add NGINX Configuration" src="https://github.com/donchai/nginx-103/assets/6828772/ca0d581f-36bb-435d-a60b-399ac3c543e9"><br>
 
-`3.` Copy, paste, and enter following text as path value, click `Create` button once ready.<br>
+### Copy Configuration
+`3.` Copy, and paste following text as path value into `File name` field, click `Create` button once ready.<br>
 ```bash
 etc/nginx/conf.d/nplusapi.conf
 ```
 <img width="600" alt="Create New NGINX Configuration File" src="https://github.com/donchai/nginx-103/assets/6828772/5ee28db5-4a36-445f-9670-2b5fa01e5c3e"><br>
 
 `4.` Navigate to VS code, under the nms-demo-kit, misc folder. Find nplusapi.conf, copy the code.<br>
-<img width="958" alt="Copy NGINX Configuration" src="https://github.com/donchai/nginx-103/assets/6828772/8a3533df-0679-4fae-8202-555985dd4465"><br>
-Alternatively, copy the code below.<br>
+<img width="600" alt="Copy NGINX Configuration" src="https://github.com/donchai/nginx-103/assets/6828772/8a3533df-0679-4fae-8202-555985dd4465"><br>
+<br>Alternatively, copy the code below.<br>
 ```bash
 server {
 
