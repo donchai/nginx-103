@@ -3,20 +3,20 @@ Configure NGINX LB using NGINX Instance Manager.<br>
 
 ### Add Configuration
 `1.` In Instance Manager secLon, Instances tab, click on *nginx-lb* and Edit Config, add a new file as */etc/nginx/conf.d/nplusapi.conf* You may copy the content from folder *misc/nplusapi.conf*.<br>
-<img width="600" alt="Add NGINX Configuration" src="https://github.com/donchai/nginx-103/assets/6828772/7d4fc1e5-0f79-408c-9ae9-eed0fc2e6182"><br>
+<img width="800" alt="Add NGINX Configuration" src="https://github.com/donchai/nginx-103/assets/6828772/7d4fc1e5-0f79-408c-9ae9-eed0fc2e6182"><br>
 
 `2.` Click in the plus + sign to add new file.<br>
-<img width="600" alt="Click Add NGINX Configuration" src="https://github.com/donchai/nginx-103/assets/6828772/ca0d581f-36bb-435d-a60b-399ac3c543e9"><br>
+<img width="800" alt="Click Add NGINX Configuration" src="https://github.com/donchai/nginx-103/assets/6828772/ca0d581f-36bb-435d-a60b-399ac3c543e9"><br>
 
 ### Copy Configuration
 `3.` Copy, and paste following text as path value into `File name` field, click `Create` button once ready.<br>
 ```bash
 etc/nginx/conf.d/nplusapi.conf
 ```
-<img width="600" alt="Create New NGINX Configuration File" src="https://github.com/donchai/nginx-103/assets/6828772/5ee28db5-4a36-445f-9670-2b5fa01e5c3e"><br>
+<img width="800" alt="Create New NGINX Configuration File" src="https://github.com/donchai/nginx-103/assets/6828772/5ee28db5-4a36-445f-9670-2b5fa01e5c3e"><br>
 
 `4.` Navigate to VS code, under *the nms-demo-kit*, *misc* folder. Find *nplusapi.conf*, copy the code.<br>
-<img width="600" alt="Copy NGINX Configuration" src="https://github.com/donchai/nginx-103/assets/6828772/8a3533df-0679-4fae-8202-555985dd4465"><br>
+<img width="800" alt="Copy NGINX Configuration" src="https://github.com/donchai/nginx-103/assets/6828772/8a3533df-0679-4fae-8202-555985dd4465"><br>
 <br>Alternatively, copy the code below.<br>
 ```bash
 server {
@@ -37,14 +37,14 @@ server {
 
 ### Paste Configuration
 `5.` Navigate back to the NMS portal, paste the code into the new file blank body. Click `Publish` button to save the new NGINX configuration file.<br>
-<img width="600" alt="Paste NGINX Configuration" src="https://github.com/donchai/nginx-103/assets/6828772/ba225918-e8d0-42ab-9904-516d15665d20"><br>
+<img width="800" alt="Paste NGINX Configuration" src="https://github.com/donchai/nginx-103/assets/6828772/ba225918-e8d0-42ab-9904-516d15665d20"><br>
 
 ### Modify Default Configuration
 `6.` From the drop down list, select */etc/nginx/conf.d/default.conf* option.<br>
-<img width="600" alt="Edit Default NGINX Configuration" src="https://github.com/donchai/nginx-103/assets/6828772/c400ce74-2e6c-494c-9272-8a57c53603d2"><br>
+<img width="800" alt="Edit Default NGINX Configuration" src="https://github.com/donchai/nginx-103/assets/6828772/c400ce74-2e6c-494c-9272-8a57c53603d2"><br>
 
 `7.` Navigate back to VS code, under the *nms-demo-kit*, *misc* folder. Find *lb.conf*, copy the code.<br>
-<img width="600" alt="Copy New Default NGINX LB Configuration" src="https://github.com/donchai/nginx-103/assets/6828772/c38eae92-e658-4b06-bcb8-b8c2096661a8"><br>
+<img width="800" alt="Copy New Default NGINX LB Configuration" src="https://github.com/donchai/nginx-103/assets/6828772/c38eae92-e658-4b06-bcb8-b8c2096661a8"><br>
 <br>Alternatively, copy the code below.<br>
 ```bash
 resolver 127.0.0.11 valid=10s status_zone=httpresolver;
@@ -66,6 +66,6 @@ server {
 ```
 
 `8.` Paste the code under the */etc/nginx/conf.d/default.conf* existing modify file content body (overwrite all). Click `Publish` button to save the modified NGINX default configuration file.<br>
-<img width="600" alt="Replace Default NGINX Configuration" src="https://github.com/donchai/nginx-103/assets/6828772/d52cb029-50a7-44cd-a75a-bfb0f8218b97"><br>
+<img width="800" alt="Replace Default NGINX Configuration" src="https://github.com/donchai/nginx-103/assets/6828772/d52cb029-50a7-44cd-a75a-bfb0f8218b97"><br>
 
 
