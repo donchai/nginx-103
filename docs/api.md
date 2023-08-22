@@ -22,4 +22,19 @@ Copy, paste, and enter below command into VS code terminal to scale API Gateway 
 ```bash
 sudo docker compose -f docker-compose.yaml up -d
 ```
+<br>After Scaled, verify total ACM Gateway Instance count on NMS portal.<br>
 <img width="800" alt="Scaled ACM Gateway" src="https://github.com/donchai/nginx-103/assets/6828772/8ece6021-eb52-4edf-9cb6-5d154df471c8"><br>
+
+### Test API Gateway
+`4.` Spend 5 minutes to explore the ACM UI and configuration. Copy, paste, and enter below command in VS code terminal to test ACM setting.<br>
+```bash
+curl -v localhost/get
+
+curl -v localhost/headers
+
+curl -v localhost/ip
+
+cur -v localhost/delay/4
+
+```
+You may refer to the *misc/httpbin-oas.yml* for other possible httpbin API endpoints.<br>
