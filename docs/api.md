@@ -16,6 +16,6 @@ etc/nginx/conf.d/nplusapi.conf
 <img width="800" alt="ACM Configuration Overview" src="https://github.com/donchai/nginx-103/assets/6828772/6b0e210a-331f-4098-9145-998d5d136766"><br>
 
 ### Scaling API Gateway Cluster
-`3.` By scaling the *nginx-gw* instances, the newly spin up instance will auto register as part of the API Gateway Cluster instance group. You will noLce additional instance in the Instances section.<br>
+`3.` By scaling the *nginx-gw* instances, the newly spin up instance will auto register as part of the API Gateway Cluster instance group. You will notice additional instance in the Instances section.<br>
 <br>Before Scaling<br>
 <img width="800" alt="ACM Before Scaling" src="https://github.com/donchai/nginx-103/assets/6828772/55d8859e-e787-44aa-9c78-adff090001f3"><br>
