@@ -13,7 +13,7 @@ admin
 <img width="600" alt="Login into NMS" src="https://github.com/donchai/nginx-103/assets/6828772/6c60fa67-50b8-4383-829d-694f8c3ee13d"><br>
 
 ### Upload License Key
-`3.` Once signed in, you will be placed at the NMS Launchpad with the Instance Manager modules. Navigate to the right hand corner and click on the “Gear” Settings icon for us to upload the NMS ACM (API Connectivity Manager) license (Please get the license keys from https://www.nginx.com/free-trial-api-connecLvity-stack/ or you may obtain it from lab facilitators.<br>
+`3.` Once signed in, you will be placed at the NMS Launchpad with the Instance Manager modules. Navigate to the right hand corner and click on the “Gear” Settings icon for us to upload the NMS ACM (API Connectivity Manager) license (Please get the license keys from https://www.nginx.com/free-trial-api-connectivity-stack/ or you may obtain it from lab facilitators.<br>
 <img width="600" alt="License Settings" src="https://github.com/donchai/nginx-103/assets/6828772/036c246d-76fc-4a6f-b947-1b4d788ae883"><br>
 
 `4.` Click `Upload License` button to initiate an upload process.<br>
