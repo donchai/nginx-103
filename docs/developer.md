@@ -22,3 +22,4 @@ Enter *HTTP-90* into `Label` field, select *HTTPS* on `Protocol` dropdown, selec
 
 ### The End
 Thank you for your time, untill the next time, have a good one!<br>
+<img alt="NGINX Super User 2.0" src=""./_static/NGINX-Super-User.png""><br>
