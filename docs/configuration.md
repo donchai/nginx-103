@@ -74,11 +74,11 @@ curl -I http://localhost/
 ```
 <img width="600" alt="Test LB Setting" src="https://github.com/donchai/nginx-103/assets/6828772/486cf304-b57d-44a5-a59a-ca1f12699cf1"><br>
 <br>We have configured NGINX load balancer to return backend server's IP address. There are mulLple backend server (NGINX Gateway), the NGINX load balancer will round robin to different backend server and return respecLve IP addresses. Your containers IP addresses might be different from what is shown below.<br>
-<br>First, copy, paste, and enter below command to find out *<container id>* value.<br>
+<br>First, copy, paste, and enter below command to find out `<container id>` value.<br>
 ```bash
 sudo docker ps
 ```
-Second, to check IP address in docker container, copy, paste, and enter below command twice. Remember to replace *<container id>* with actual value.<br>
+Second, to check IP address in docker container, copy, paste, and enter below command twice. Remember to replace `<container id>` with actual value.<br>
 ```bash
 sudo docker inspect <container id> | grep "IPAddress"
 ```
