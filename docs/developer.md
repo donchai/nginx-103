@@ -11,5 +11,7 @@ In the previously created *API Connectivity Manager*-> *Infrastructure*-> *Works
 <img width="800" alt="Create Developer Portal" src="https://github.com/donchai/nginx-103/assets/6828772/61b6a097-81a5-4ef7-87ca-4b8fec1d15c7"><br>
 
 ### Enable Access
-`3.` Go to your UDF lab portal, create addiLonal access method under ubuntu server for port 90 and click access.<br>
+`3.` Go to your UDF lab portal, create additional access method under ubuntu server for port 90.<br>
+Enter *HTTP-90* into `Label` field, select *HTTPS* on `Protocol` dropdown, select *10.1.1.6* on `Instance Address` dropdown, and enter *90* into `Instance Port` field, click Save button to complete.<br>
 <img width="800" alt="Enable Developer Portal Access" src="https://github.com/donchai/nginx-103/assets/6828772/56fb7d95-5022-4862-9c20-8579c3ef82a8"><br>
+<br>Once done, locate the newly added access method with port 90 and click `Access` to browse Developer Portal.<br>
