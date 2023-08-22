@@ -2,7 +2,7 @@
 Configure NGINX LB using NGINX Instance Manager.<br>
 
 ### Add Configuration
-`1.` In Instance Manager secLon, Instances tab, click on *nginx-lb* and Edit Config, add a new file as */etc/nginx/conf.d/nplusapi.conf* You may copy the content from folder *misc/nplusapi.conf*.<br>
+`1.` In Instance Manager section, Instances tab, click on *nginx-lb* and Edit Config, add a new file as */etc/nginx/conf.d/nplusapi.conf* You may copy the content from folder *misc/nplusapi.conf*.<br>
 <img width="800" alt="Add NGINX Configuration" src="https://github.com/donchai/nginx-103/assets/6828772/7d4fc1e5-0f79-408c-9ae9-eed0fc2e6182"><br>
 
 `2.` Click in the plus + sign to add new file.<br>
