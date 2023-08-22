@@ -17,7 +17,6 @@ license
 build
 configuration
 api
-scaling
 developer
 ```
 
