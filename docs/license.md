@@ -1,4 +1,4 @@
-# NMS License Activation
+# NMS License Activation<br>
 
 ### Login to NMS Portal
 `1.` After few minutes (approx 3-5 min), go the ubuntu tab and click access to HTTP-443 to bring up the NMS portal.<br>
