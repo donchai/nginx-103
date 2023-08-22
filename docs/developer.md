@@ -6,3 +6,4 @@ In the previously created *API Connectivity Manager*-> *Infrastructure*-> *Works
 ```bash
 sh misc/end2end_deploy.sh
 ```
+![Screenshot 2023-08-22 at 3 37 20 PM](https://github.com/donchai/nginx-103/assets/6828772/f4efb420-bd97-43a4-9627-a7a0454eaa6a)
