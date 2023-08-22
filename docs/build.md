@@ -23,11 +23,11 @@ sudo ./scripts/buildNPlusWithAgent.sh -t npluswithagent:devportal -D -n https://
 
 `4.` Uncomment out the *nginx-lb*, *nginx-gw*, *httpbin-app*, *acm.nginx-devportal* sections in docker-compose.yaml section.<br>
 Before<br>
-<img width="696" alt="Before Uncomment docker-compose.yaml File" src="https://github.com/donchai/nginx-103/assets/6828772/e661d2ef-2991-4afe-a4ae-cc74ffd62b7e"><br>
+<img width="800" alt="Before Uncomment docker-compose.yaml File" src="https://github.com/donchai/nginx-103/assets/6828772/e661d2ef-2991-4afe-a4ae-cc74ffd62b7e"><br>
 After (Highlight from line 32 to line 65) and press the below shortcut keys<br>
 • Shortcut keys for Mac = Command + /)<br>
 • Shortcut keys for Windows = Control + K or Control + C or Control + U<br>
-<img width="681" alt="After Uncomment docker-compose.yaml File" src="https://github.com/donchai/nginx-103/assets/6828772/65472789-8299-4c8d-88d2-580d5fd8a18d"><br>
+<img width="800" alt="After Uncomment docker-compose.yaml File" src="https://github.com/donchai/nginx-103/assets/6828772/65472789-8299-4c8d-88d2-580d5fd8a18d"><br>
 Close the docker-compose.yaml file after successfully uncommented the sections mentioned-above.<br>
 
 ### Deploy and Run NGINX Plus Instances
