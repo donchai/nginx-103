@@ -12,6 +12,25 @@ Configure NGINX LB using NGINX Instance Manager.<br>
 ```bash
 etc/nginx/conf.d/nplusapi.conf
 ```
-<img width="732" alt="Create New NGINX Configuration File" src="https://github.com/donchai/nginx-103/assets/6828772/5ee28db5-4a36-445f-9670-2b5fa01e5c3e"><br>
+<img width="600" alt="Create New NGINX Configuration File" src="https://github.com/donchai/nginx-103/assets/6828772/5ee28db5-4a36-445f-9670-2b5fa01e5c3e"><br>
 
-`4.` 
+`4.` Navigate to VS code, under the nms-demo-kit, misc folder. Find nplusapi.conf, copy the code.<br>
+<img width="958" alt="Copy NGINX Configuration" src="https://github.com/donchai/nginx-103/assets/6828772/8a3533df-0679-4fae-8202-555985dd4465"><br>
+Alternatively, copy the code below.<br>
+```bash
+server {
+
+    listen       8080;
+
+        location /api {
+        api write=on;
+        allow all;
+    }
+
+    location / {
+    root /usr/share/nginx/html;
+    index   dashboard.html;
+    }
+}
+```
+
