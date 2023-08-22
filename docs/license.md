@@ -10,7 +10,7 @@ Password: admin<br>
 ```bash
 admin
 ```
-<img width="400" alt="Login into NMS" src="https://github.com/donchai/nginx-103/assets/6828772/6c60fa67-50b8-4383-829d-694f8c3ee13d"><br>
+<img width="600" alt="Login into NMS" src="https://github.com/donchai/nginx-103/assets/6828772/6c60fa67-50b8-4383-829d-694f8c3ee13d"><br>
 
 ### Upload License Key
 `3.` Once signed in, you will be placed at the NMS Launchpad with the Instance Manager modules. Navigate to the right hand corner and click on the “Gear” Settings icon for us to upload the NMS ACM (API Connectivity Manager) license (Please get the license keys from https://www.nginx.com/free-trial-api-connecLvity-stack/ or you may obtain it from lab facilitators.<br>
@@ -20,7 +20,7 @@ admin
 <img width="600" alt="Upload License" src="https://github.com/donchai/nginx-103/assets/6828772/1058def6-7bc5-460e-beac-8d0c81f22774"><br>
 
 `5.` Drag and drop NMS license key file (nginx-mgmt-suite-acm-trial.lic) to *License File* area and click `Upload` button to begin uploading to NMS Portal.<br>
-<img width="400" alt="Drag and drop License Key to Upload" src="https://github.com/donchai/nginx-103/assets/6828772/679864d2-5855-44e4-8889-1972e361cdb9"><br>
+<img width="600" alt="Drag and drop License Key to Upload" src="https://github.com/donchai/nginx-103/assets/6828772/679864d2-5855-44e4-8889-1972e361cdb9"><br>
 
 ### Verify License
 `6.` You will now see the API Management and Advanced security license being added. Refresh your browser and click on the NGINX logo navigate to the launchpad aka (Homepage).<br>
