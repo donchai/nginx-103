@@ -21,4 +21,4 @@ Enter *HTTP-90* into `Label` field, select *HTTPS* on `Protocol` dropdown, selec
 <img width="1074" alt="Explore Developer Portal" src="https://github.com/donchai/nginx-103/assets/6828772/1d613470-76cf-4a1b-81db-3556d7ab3e54"><br>
 
 ### The End
-Thank you for your time, untill the next month, have a good one!<br>
+Thank you for your time, untill the next time, have a good one!<br>
