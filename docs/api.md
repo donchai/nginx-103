@@ -10,9 +10,6 @@ sh misc/end2end_deploy.sh
 
 ### Enable API Gateway Cluster
 `2.` In *API Connectivity Manager*, *Infrastructure*, create a *Workspace*, an *Environment*. In the *Environment* tab, add *API Gateways* Cluster. You may fill in any mock details, but the Name of the API Gateway Clusters must be same with the instance group name you specify for the *nginx-gw* in docker-compose file, in this case "*gwcluster*".<br>
-```bash
-etc/nginx/conf.d/nplusapi.conf
-```
 <img width="800" alt="ACM Configuration Overview" src="https://github.com/donchai/nginx-103/assets/6828772/6b0e210a-331f-4098-9145-998d5d136766"><br>
 
 ### Scaling API Gateway Cluster
