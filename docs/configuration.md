@@ -35,3 +35,7 @@ server {
 }
 ```
 
+### Paste Configuration
+`5.` Navigate back to the NMS portal, paste the code into the new file blank body.<br>
+<img width="1224" alt="Paste NGINX Configuration" src="https://github.com/donchai/nginx-103/assets/6828772/ba225918-e8d0-42ab-9904-516d15665d20"><br>
+
