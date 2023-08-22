@@ -3,10 +3,10 @@ Configure NGINX LB using NGINX Instance Manager.<br>
 
 ### Add Configuration
 `1.` In Instance Manager secLon, Instances tab, click on *nginx-lb* and Edit Config, add a new file as */etc/nginx/conf.d/nplusapi.conf* You may copy the content from folder *misc/nplusapi.conf*.<br>
-<img width="1221" alt="Add NGINX Configuration" src="https://github.com/donchai/nginx-103/assets/6828772/7d4fc1e5-0f79-408c-9ae9-eed0fc2e6182"><br>
+<img width="600" alt="Add NGINX Configuration" src="https://github.com/donchai/nginx-103/assets/6828772/7d4fc1e5-0f79-408c-9ae9-eed0fc2e6182"><br>
 
 `2.` Click in the plus + sign to add new file.<br>
-<img width="1216" alt="Click Add NGINX Configuration" src="https://github.com/donchai/nginx-103/assets/6828772/ca0d581f-36bb-435d-a60b-399ac3c543e9"><br>
+<img width="600" alt="Click Add NGINX Configuration" src="https://github.com/donchai/nginx-103/assets/6828772/ca0d581f-36bb-435d-a60b-399ac3c543e9"><br>
 
 ### Copy Configuration
 `3.` Copy, and paste following text as path value into `File name` field, click `Create` button once ready.<br>
@@ -36,6 +36,36 @@ server {
 ```
 
 ### Paste Configuration
-`5.` Navigate back to the NMS portal, paste the code into the new file blank body.<br>
-<img width="1224" alt="Paste NGINX Configuration" src="https://github.com/donchai/nginx-103/assets/6828772/ba225918-e8d0-42ab-9904-516d15665d20"><br>
+`5.` Navigate back to the NMS portal, paste the code into the new file blank body. Click `Publish` button to save the new NGINX configuration file.<br>
+<img width="600" alt="Paste NGINX Configuration" src="https://github.com/donchai/nginx-103/assets/6828772/ba225918-e8d0-42ab-9904-516d15665d20"><br>
+
+### Modify Default Configuration
+`6.` From the drop down list, select */etc/nginx/conf.d/default.conf* option.<br>
+<img width="600" alt="Edit Default NGINX Configuration" src="https://github.com/donchai/nginx-103/assets/6828772/c400ce74-2e6c-494c-9272-8a57c53603d2"><br>
+
+`7.` Navigate back to VS code, under the *nms-demo-kit*, *misc* folder. Find *lb.conf*, copy the code.<br>
+<img width="600" alt="Copy New Default NGINX LB Configuration" src="https://github.com/donchai/nginx-103/assets/6828772/c38eae92-e658-4b06-bcb8-b8c2096661a8"><br>
+<br>Alternatively, copy the code below.<br>
+```bash
+resolver 127.0.0.11 valid=10s status_zone=httpresolver;
+
+upstream backend_gw {
+    zone backend_gw 64k;
+    server nginx-gw:80 resolve;
+}
+
+server {
+    listen 80;
+    status_zone main_server;
+    location / {
+        status_zone main_location;
+        add_header backend $upstream_addr;
+        proxy_pass http://backend_gw;
+    }
+}
+```
+
+`8.` Paste the code under the */etc/nginx/conf.d/default.conf* existing modify file content body (overwrite all). Click `Publish` button to save the modified NGINX default configuration file.<br>
+<img width="600" alt="Replace Default NGINX Configuration" src="https://github.com/donchai/nginx-103/assets/6828772/d52cb029-50a7-44cd-a75a-bfb0f8218b97"><br>
+
 
