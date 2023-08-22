@@ -1,7 +1,7 @@
 # NGINX 103
 
 Streamline Your App and API Management with NGINX Management Suite using NIM. This lab is an introduction to NGINX Management Suites (NMS) with various modules: API Connectivity Manager (ACM), Instance Manager (NIM), and Security Monitoring (SM). It includes the usage of NGINX Plus as a load balancer and API Gateway, as well as NGINX App Protect for API Security Protection.
-<br>*Original Lab Authors*: `Ewen Low` `Michel Cheo` 
+<br>*Original Lab Authors*: `Ewen Low` `Michael Cheo` 
 
 ## Lab Overview
 
