@@ -36,16 +36,16 @@ The entire process will take around 2-3 minutes.<br>
 ```bash
 sudo docker compose -f docker-compose.yaml up -d
 ```
-<img width="805" alt="Deploy NGINX Plus Instances" src="https://github.com/donchai/nginx-103/assets/6828772/7760fb56-f039-41eb-93ad-e169a3aaa1ec"><br>
+<img width="800" alt="Deploy NGINX Plus Instances" src="https://github.com/donchai/nginx-103/assets/6828772/7760fb56-f039-41eb-93ad-e169a3aaa1ec"><br>
 
 ### Verify Running State using Docker Command
 `6.` Copy, paste, and enter following command into terminal to verify the NGINX Plus Instances deployment status.<br>
 ```bash
 sudo docker ps
 ```
-<img width="808" alt="Verify NGINX Plus Instances Deployment Status using Docker" src="https://github.com/donchai/nginx-103/assets/6828772/8a762d91-c286-41f7-bef5-e31e74081c89"><br>
+<img width="800" alt="Verify NGINX Plus Instances Deployment Status using Docker" src="https://github.com/donchai/nginx-103/assets/6828772/8a762d91-c286-41f7-bef5-e31e74081c89"><br>
 
 ### Verify Running State using NMS Portal
 `7.` Navigate back to your NMS portal, click on Instance manager modules. On the overview page of the NMS Instance Manager dashboard, you should see the below instances.<br>
-<img width="867" alt="Verify NGINX Plus Instances Deployment Status using NMS" src="https://github.com/donchai/nginx-103/assets/6828772/f4ac8e69-32aa-4796-8e6d-4d2fa66e641e"><br>
+<img width="800" alt="Verify NGINX Plus Instances Deployment Status using NMS" src="https://github.com/donchai/nginx-103/assets/6828772/f4ac8e69-32aa-4796-8e6d-4d2fa66e641e"><br>
 
