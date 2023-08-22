@@ -19,3 +19,9 @@ etc/nginx/conf.d/nplusapi.conf
 `3.` By scaling the *nginx-gw* instances, the newly spin up instance will auto register as part of the API Gateway Cluster instance group. You will notice additional instance in the Instances section.<br>
 <br>Before Scaling<br>
 <img width="800" alt="ACM Before Scaling" src="https://github.com/donchai/nginx-103/assets/6828772/55d8859e-e787-44aa-9c78-adff090001f3"><br>
+First, in VS code, edit docker-compose file, under *nginx-gw* section, change the replicas to 3.<br>
+<img width="800" alt="Edit ACM Gateway Instance Count Configuration" src="https://github.com/donchai/nginx-103/assets/6828772/64ad9be6-8e7d-46fb-bbf6-7a37b5511af9"><br>
+Copy, paste, and enter below command into VS code terminal to scale API Gateway Cluster instance.<br>
+```bash
+sudo docker compose -f docker-compose.yaml up -d
+```
