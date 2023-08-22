@@ -68,12 +68,15 @@ server {
 `8.` Paste the code under the */etc/nginx/conf.d/default.conf* existing modify file content body (overwrite all). Click `Publish` button to save the modified NGINX default configuration file.<br>
 <img width="800" alt="Replace Default NGINX Configuration" src="https://github.com/donchai/nginx-103/assets/6828772/d52cb029-50a7-44cd-a75a-bfb0f8218b97"><br>
 
+### Verify Applied Configuration
 `9.` Test the LB setting, navigate back to VS code terminal and copy, paste, and enter command below twice.<br>
 ```bash
 curl -I http://localhost/
 ```
 <img width="600" alt="Test LB Setting" src="https://github.com/donchai/nginx-103/assets/6828772/486cf304-b57d-44a5-a59a-ca1f12699cf1"><br>
-<br>We have configured NGINX load balancer to return backend server's IP address. There are mulLple backend server (NGINX Gateway), the NGINX load balancer will round robin to different backend server and return respecLve IP addresses. Your containers IP addresses might be different from what is shown below.<br>
+
+### Verify Container IP Address
+We have configured NGINX load balancer to return backend server's IP address. There are mulLple backend server (NGINX Gateway), the NGINX load balancer will round robin to different backend server and return respecLve IP addresses. Your containers IP addresses might be different from what is shown below.<br>
 <br>First, copy, paste, and enter below command to find out `<container id>` value.<br>
 ```bash
 sudo docker ps
@@ -83,3 +86,7 @@ Second, to check IP address in docker container, copy, paste, and enter below co
 sudo docker inspect <container id> | grep "IPAddress"
 ```
 <img width="1301" alt="Get Docker IP Address" src="https://github.com/donchai/nginx-103/assets/6828772/db317d1e-9792-46a4-9d19-fa210ff6dc5f"><br>
+<br>Alternatively, go to the NMS to check on the IP for the NGINX-GW Cluster Instance 1 and Instance 2.<br>
+![Screenshot 2023-08-22 at 1 30 29 PM](https://github.com/donchai/nginx-103/assets/6828772/76befac4-c601-445a-8972-2f8b80d68161)
+
+
