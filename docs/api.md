@@ -34,7 +34,7 @@ curl -v localhost/headers
 
 curl -v localhost/ip
 
-cur -v localhost/delay/4
+curl -v localhost/delay/4
 
 ```
 You may refer to the *misc/httpbin-oas.yml* for other possible httpbin API endpoints.<br>
