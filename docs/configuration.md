@@ -36,7 +36,7 @@ server {
 ```
 
 ### Paste Configuration
-`5.` Navigate back to the NMS portal, paste the code into the new file blank body. Click `Publish` button to save the new NGINX configuration file.<br>
+`5.` Navigate back to the NMS portal, paste the code into the new file blank body. Click `Publish` button twice to save the new NGINX configuration file.<br>
 <img width="800" alt="Paste NGINX Configuration" src="https://github.com/donchai/nginx-103/assets/6828772/ba225918-e8d0-42ab-9904-516d15665d20"><br>
 
 ### Modify Default Configuration
@@ -65,7 +65,7 @@ server {
 }
 ```
 
-`8.` Paste the code under the */etc/nginx/conf.d/default.conf* existing modify file content body (overwrite all). Click `Publish` button to save the modified NGINX default configuration file.<br>
+`8.` Paste the code under the */etc/nginx/conf.d/default.conf* existing modify file content body (overwrite all). Click `Publish` button twice to save the modified NGINX default configuration file.<br>
 <img width="800" alt="Replace Default NGINX Configuration" src="https://github.com/donchai/nginx-103/assets/6828772/d52cb029-50a7-44cd-a75a-bfb0f8218b97"><br>
 
 ### Verify Applied Configuration
